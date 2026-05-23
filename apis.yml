@@ -1,0 +1,149 @@
+aid: superduperdb
+url: https://raw.githubusercontent.com/api-evangelist/superduperdb/refs/heads/main/apis.yml
+name: Superduper
+kind: company
+description: >-
+  Superduper (formerly SuperDuperDB) is an open-source Python framework for
+  building database-integrated AI agents and applications directly on top of
+  existing databases - MongoDB, SQL databases, Snowflake, and Redis - without
+  separate vector stores or ETL. It supports semantic / vector search, RAG,
+  transformer and PyTorch model integration, LLM serving, and distributed ML
+  workflows. The commercial side, Superduper Agents, is an enterprise AI agent
+  orchestration platform for BI and data operations, distributed via the
+  Snowflake Marketplace and self-hosted enterprise installs.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI Framework
+  - Vector Search
+  - RAG
+  - LLMs
+  - MLOps
+  - Open Source
+  - AI Agents
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: superduperdb:framework
+    name: Superduper Framework
+    description: >-
+      Open-source Python framework (superduper-framework) for declaring AI
+      models, embeddings, vector indexes, RAG pipelines, and listeners directly
+      on top of an existing database. Apache 2.0 licensed.
+    humanURL: https://docs.superduper.io/
+    baseURL: https://github.com/superduper-io/superduper
+    tags:
+      - Python
+      - Framework
+      - Open Source
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Repository
+        url: https://github.com/superduper-io/superduper
+  - aid: superduperdb:mongodb-plugin
+    name: Superduper MongoDB Plugin
+    description: >-
+      Database backend plugin (superduper-mongodb) that turns a MongoDB cluster
+      into a Superduper-managed AI datastore with vector search and model
+      listeners.
+    humanURL: https://docs.superduper.io/
+    baseURL: https://github.com/superduper-io/superduper
+    tags:
+      - Plugin
+      - MongoDB
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Repository
+        url: https://github.com/superduper-io/superduper
+  - aid: superduperdb:sql-plugin
+    name: Superduper SQL Plugin
+    description: >-
+      Database backend plugin (superduper-sql) for SQL databases - PostgreSQL,
+      MySQL, SQLite, DuckDB, and other SQLAlchemy-supported engines.
+    humanURL: https://docs.superduper.io/
+    baseURL: https://github.com/superduper-io/superduper
+    tags:
+      - Plugin
+      - SQL
+      - PostgreSQL
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Repository
+        url: https://github.com/superduper-io/superduper
+  - aid: superduperdb:snowflake-plugin
+    name: Superduper Snowflake Plugin
+    description: >-
+      Database backend plugin (superduper-snowflake) that runs Superduper
+      against a Snowflake account, including the Snowflake Marketplace
+      distribution path for Superduper Agents.
+    humanURL: https://docs.superduper.io/
+    baseURL: https://github.com/superduper-io/superduper
+    tags:
+      - Plugin
+      - Snowflake
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Repository
+        url: https://github.com/superduper-io/superduper
+  - aid: superduperdb:redis-plugin
+    name: Superduper Redis Plugin
+    description: >-
+      Database backend plugin (superduper-redis) for Redis-backed Superduper
+      deployments.
+    humanURL: https://docs.superduper.io/
+    baseURL: https://github.com/superduper-io/superduper
+    tags:
+      - Plugin
+      - Redis
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Repository
+        url: https://github.com/superduper-io/superduper
+  - aid: superduperdb:agents
+    name: Superduper Agents
+    description: >-
+      Commercial enterprise AI agent orchestration product for BI and data
+      operations. Connects to 40+ databases, data warehouses, and business
+      tools - PostgreSQL, MongoDB, Snowflake, Salesforce, Slack, HubSpot, Jira -
+      and is available as a free trial via the Snowflake Marketplace
+      (GZTDZG4Y3T/superduper-io-superduperagents) or as a self-hosted enterprise
+      install.
+    humanURL: https://superduper.io/
+    baseURL: https://superduper.io/
+    tags:
+      - AI Agents
+      - Enterprise
+      - BI
+    properties:
+      - type: Documentation
+        url: https://docs.superduper.io/
+      - type: Marketplace
+        url: https://app.snowflake.com/marketplace/listing/GZTDZG4Y3T/superduper-io-superduperagents
+common:
+  - type: Website
+    url: https://superduper.io/
+  - type: Documentation
+    url: https://docs.superduper.io/
+  - type: GitHub
+    url: https://github.com/superduper-io
+  - type: Slack
+    url: https://join.slack.com/t/superduper-public/shared_invite/zt-1yodhtx8y-KxzECued5QBtT6JFnsSNrQ
+integrations:
+  - name: MongoDB
+  - name: PostgreSQL
+  - name: Snowflake
+  - name: Redis
+  - name: Salesforce
+  - name: Slack
+  - name: HubSpot
+  - name: Jira
+  - name: PyTorch
+  - name: Hugging Face
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
