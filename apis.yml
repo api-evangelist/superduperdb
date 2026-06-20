@@ -11,7 +11,7 @@ description: >-
   workflows. The commercial side, Superduper Agents, is an enterprise AI agent
   orchestration platform for BI and data operations, distributed via the
   Snowflake Marketplace and self-hosted enterprise installs.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI Framework
   - Vector Search
