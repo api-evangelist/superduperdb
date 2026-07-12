@@ -125,6 +125,8 @@ apis:
       - type: Marketplace
         url: https://app.snowflake.com/marketplace/listing/GZTDZG4Y3T/superduper-io-superduperagents
 common:
+  - type: DomainSecurity
+    url: security/superduperdb-domain-security.yml
   - type: Website
     url: https://superduper.io/
   - type: Documentation
