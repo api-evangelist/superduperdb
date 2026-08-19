@@ -34,7 +34,7 @@ tags:
   - AI Agents
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: superduperdb:framework
     name: Superduper Framework
