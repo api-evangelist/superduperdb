@@ -30,6 +30,14 @@ tags:
   - RAG
   - LLMs
   - MLOps
+  - Open-Source
+  - AI Agents
+tags_raw:
+  - AI Framework
+  - Vector Search
+  - RAG
+  - LLMs
+  - MLOps
   - Open Source
   - AI Agents
 created: '2026-05-23'
@@ -45,6 +53,10 @@ apis:
     humanURL: https://docs.superduper.io/
     baseURL: https://github.com/superduper-io/superduper
     tags:
+      - Python
+      - Framework
+      - Open-Source
+    tags_raw:
       - Python
       - Framework
       - Open Source
