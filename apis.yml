@@ -40,7 +40,7 @@ tags:
   - AI Framework
   - Vector Search
   - RAG
-  - LLMs
+  - LLM
   - MLOps
   - Open-Source
   - AI Agents
@@ -86,6 +86,9 @@ apis:
     humanURL: https://docs.superduper.io/
     baseURL: https://github.com/superduper-io/superduper
     tags:
+      - Plugins
+      - MongoDB
+    tags_raw:
       - Plugin
       - MongoDB
     properties:
@@ -101,6 +104,10 @@ apis:
     humanURL: https://docs.superduper.io/
     baseURL: https://github.com/superduper-io/superduper
     tags:
+      - Plugins
+      - SQL
+      - PostgreSQL
+    tags_raw:
       - Plugin
       - SQL
       - PostgreSQL
@@ -118,6 +125,9 @@ apis:
     humanURL: https://docs.superduper.io/
     baseURL: https://github.com/superduper-io/superduper
     tags:
+      - Plugins
+      - Snowflake
+    tags_raw:
       - Plugin
       - Snowflake
     properties:
@@ -133,6 +143,9 @@ apis:
     humanURL: https://docs.superduper.io/
     baseURL: https://github.com/superduper-io/superduper
     tags:
+      - Plugins
+      - Redis
+    tags_raw:
       - Plugin
       - Redis
     properties:
@@ -152,6 +165,10 @@ apis:
     humanURL: https://superduper.io/
     baseURL: https://superduper.io/
     tags:
+      - AI Agents
+      - Enterprise
+      - Business Intelligence
+    tags_raw:
       - AI Agents
       - Enterprise
       - BI
