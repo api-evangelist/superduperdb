@@ -1,0 +1,29 @@
+# Front Door AI Index — superduperdb — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: superduperdb
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: superduper.io
+  final_host: superduper.io
+  ownership: own
+  owner: superduperdb
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 18.84
+  words: 637
+  tiers:
+    agentic: 3
+    core: 9
+    model: 0
+  ambiguous: 10
+  top_terms:
+    agent: 10
+    AI: 9
+    AI agent: 1
+    agentic: 1
+    embedding: 1
