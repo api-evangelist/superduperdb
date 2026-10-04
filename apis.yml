@@ -42,7 +42,7 @@ tags:
   - RAG
   - LLM
   - MLOps
-  - Open-Source
+  - Open Source
   - AI Agents
 tags_raw:
   - AI Framework
@@ -52,6 +52,7 @@ tags_raw:
   - MLOps
   - Open Source
   - AI Agents
+  - Open-Source
 created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.23'
@@ -67,11 +68,12 @@ apis:
     tags:
       - Python
       - Framework
-      - Open-Source
+      - Open Source
     tags_raw:
       - Python
       - Framework
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.superduper.io/
@@ -163,7 +165,6 @@ apis:
       (GZTDZG4Y3T/superduper-io-superduperagents) or as a self-hosted enterprise
       install.
     humanURL: https://superduper.io/
-    baseURL: https://superduper.io/
     tags:
       - AI Agents
       - Enterprise
